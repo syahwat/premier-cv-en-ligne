@@ -396,4 +396,10 @@ max-height : 1em;
 	word-spacing: 0.3em;
 
 }
-
+.list-group-item3
+{
+	color: rgb(223, 223, 222);
+  margin: 0.4em;
+  font-size: 2.5vmin;
+  padding: 0.2em;
+}
