@@ -332,6 +332,14 @@ border: 0.2em solid rgba(142, 128, 106, 0.8);
 .text-sum
 {
 	margin-top: 3em;
+	color: white;
+}
+.text-sum2
+{
+	color: white;
+	font-size: auto;
+	margin: 1em;
+	font-size: 1.5vh;
 }
 .car1
 {
@@ -402,4 +410,14 @@ max-height : 1em;
   margin: 0.4em;
   font-size: 2.5vmin;
   padding: 0.2em;
+}
+.summary2
+{
+	background: rgba(142, 128, 106,0.7);
+	border-radius: 0.5em;
+	margin: 1em;
+	font-family: 'Highschool';
+	padding: 0.3em;
+	color: black;
+	font-size: 3.5vmin;
 }
