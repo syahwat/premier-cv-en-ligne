@@ -115,7 +115,7 @@ a
 	flex-direction: row;
 	justify-content: center;
 	text-align: center;
-	align-items: center;
+	align-items: stretch;
 }
 .cont2
 {
@@ -180,11 +180,26 @@ a
 }
 
 .h5 {
-font-size: 1.7em;
+font-size: 1.65em;
 }
 @media only screen and (max-width: 400px) {
   .h5 {
     font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .h5 {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .h5 {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .h5 {
+    font-size: 1.5em;
   }
 }
 
@@ -378,7 +393,7 @@ font-size: 1.7em;
  flex-wrap: wrap;
  display: flex;
  justify-content: center;
- background: url(footer1.jpg) no-repeat;
+ background: url(footer1.webp) no-repeat;
  background-size: 100% 100%;
  margin-top: 2em;
 border: 0.2em solid rgba(142, 128, 106, 0.8);
@@ -427,21 +442,33 @@ border: 0.2em solid rgba(142, 128, 106, 0.8);
 }
 .card-text
 {
-font-size: 1.8vh;
+font-size: 1.9vh;
 }
 @media only screen and (max-width: 400px) {
   .card-text {
-    font-size: 1.5vh;
+    font-size: 1.7vh;
   }
 }
 }
 li
 {
-font-size: 1.8vh;
+font-size: 1.9vh;
 }
 @media only screen and (max-width: 400px) {
   li {
-    font-size: 1.6vh;
+    font-size: 1.7vh;
+  }
+}
+}
+@media only screen and (max-width: 600px) {
+  li {
+    font-size: 1.75vh;
+  }
+}
+}
+@media only screen and (max-width: 800px) {
+  li {
+    font-size: 1.8vh;
   }
 }
 }
