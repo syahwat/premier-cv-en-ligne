@@ -103,9 +103,11 @@ a
  min-width: 15%;
  max-height: 80%;
  max-width: 80%;
- border-radius: 4em;
+ border-radius: 1.4em;
   background-color: rgba(135, 100, 69, 0.5);
   padding: 0.4em;
+	border: 0.1em solid rgba(27, 26, 23, 0.6);
+
  }
 
 .cont1
@@ -230,6 +232,7 @@ font-size: 1.65em;
 
 }
 
+
 .reduc
 {
 	opacity: 0.4;
@@ -272,6 +275,8 @@ font-size: 1.65em;
 	margin: 1em;
 	padding: 1em;
 	box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.45);
+		font-family: 'ChauPhilomeneOne';
+
 }
 .rub3
 {
@@ -364,6 +369,9 @@ font-size: 1.65em;
 	border-radius: 1em;
 	border: 0.1em solid rgba(27, 26, 23, 0.6);
 	box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.45);
+	font-size: 1.1em;
+		font-family: 'Gabriela';
+		line-height: 1.6em;
 }
 
 .table
@@ -398,10 +406,24 @@ font-size: 1.65em;
  margin-top: 2em;
 border: 0.2em solid rgba(142, 128, 106, 0.8);
 }
+
 .perso
 {
  display: flex;
  width: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: rgba(171, 162, 137, 0.25) !important;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(120, 116, 95, 0.3) !important;
 }
 .accordion-item
 {
@@ -432,6 +454,7 @@ border: 0.2em solid rgba(142, 128, 106, 0.8);
 {
 	margin-top: 3em;
 	color: white;
+	line-height: 1.6em;
 }
 .text-sum2
 {
@@ -450,42 +473,7 @@ font-size: 1.9vh;
   }
 }
 }
-li
-{
-font-size: 1.9vh;
-}
-@media only screen and (max-width: 400px) {
-  li {
-    font-size: 1.7vh;
-  }
-}
-}
-@media only screen and (max-width: 600px) {
-  li {
-    font-size: 1.75vh;
-  }
-}
-}
-@media only screen and (max-width: 800px) {
-  li {
-    font-size: 1.8vh;
-  }
-}
-}
-.car1
-{
-	padding: 1em;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	  background: #A1926A;
-	border: 0.5em solid rgba(142, 128, 106, 0.8);
-	box-shadow: 7px 8px 8px 8px rgba(0, 0, 0, 0.45);
-	border-radius: 3em;
-	color: white;
-	justify-content: space-around;
 
-}
 .car2
 {
 	display: flex;
@@ -504,6 +492,7 @@ font-size: 1.9vh;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: center;
+	padding: 1em;
 }
 
 .titre-car-style
@@ -551,13 +540,14 @@ max-height : 1em;
 	padding: 1em;
 	margin: 1em;
 	word-spacing: 0.3em;
+	text-align: left;
 
 }
 .list-group-item3
 {
-	color: rgb(223, 223, 222);
+	color: white;
   margin: 0.4em;
-  font-size: 2.5vmin;
+  font-size: 2.9vmin;
   padding: 0.2em;
 }
 .summary2
