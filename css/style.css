@@ -550,13 +550,3 @@ max-height : 1em;
   font-size: 2.9vmin;
   padding: 0.2em;
 }
-.summary2
-{
-	background: rgba(142, 128, 106,0.7);
-	border-radius: 0.5em;
-	margin: 1em;
-	font-family: 'Highschool';
-	padding: 0.3em;
-	color: black;
-	font-size: 3.5vmin;
-}
